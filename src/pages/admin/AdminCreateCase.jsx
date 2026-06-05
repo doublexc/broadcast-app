@@ -60,7 +60,7 @@ export default function AdminCreateCase() {
     const zip = new JSZip();
 
     const addQrToZip = async (filename, path) => {
-      const fullUrl = `${FRONTEND_BASE_URL}${path}`;
+      const fullUrl = `${FRONTEND_BASE_URL}/broadcast-app/#${path}`;
       const qrDataUrl = await QRCode.toDataURL(fullUrl, { width: 500, margin: 2 });
       const base64Data = qrDataUrl.replace(/^data:image\/(png|jpg);base64,/, "");
       zip.file(`${filename}.png`, base64Data, { base64: true });
