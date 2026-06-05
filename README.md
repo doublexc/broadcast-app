@@ -1,4 +1,4 @@
-# Broadcast App 📺 (Line 3: PRISM OF DREAMS)
+# Broadcast App 📺
 
 ระบบจัดการคิวภาพออกอากาศสดแบบเรียลไทม์ (Real-time Broadcast Image Management System) ที่ออกแบบมาเพื่อลดข้อผิดพลาดในการสื่อสารระหว่างทีมงาน (Admin) และแขกรับเชิญ (Guest) ระหว่างการถ่ายทำรายการสด
 
